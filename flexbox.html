@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        content{
+            border: 3px dotted green;
+            height: 500px;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+        }
+        .flex{
+            order: 1;
+            flex-grow: 1;
+        }
+        .order2{
+            order:2;
+        }
+        .vox {
+            
+            width: 200px;
+            font-size: 3em;
+            border: 3px dashed red;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>I am flexeble righte now</h1>
+    <content>
+        
+        <div class="vox order2">row1</div>
+        <div class="vox flex">row2</div>
+       
+    </content>
+</body>
+</html>

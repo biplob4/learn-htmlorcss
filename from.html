@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+            display:flex;
+            flex-direction: column;
+            padding: 30px;
+            background: blanchedalmond;
+            margin-top: 40px;
+            border-radius: 10px;
+            padding-bottom: 50px;
+
+        }
+        .login-from{
+            display: flex;
+            justify-content: center;
+
+        }
+    .login input{
+        font-size: 1.3em;
+        font-weight: 700;
+        padding: 5px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid rgb(179, 173, 173)
+        
+        
+    }
+    input:focus{
+        outline: none;
+        color: red;
+    }
+    input::placeholder{
+        color:rgb(212, 202, 202);
+        font-family: arial;
+    }
+    #button{
+        background: orangered;
+        color:#ffff;
+        border: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        
+        margin-right: 15px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <span>
+            <a href="">Home</a><a href="">contact</a><a href="">joen us</a><a href="">aboute us</a>
+        </span>
+        <span>
+             <a href=""><i class="fas fa-user"></i></a>
+            <a href=""><i class="fas fa-chalkboard-teacher"></i></a>    
+        </span>
+    </div>
+    <section class="login-from" >
+        <div class="login">
+            <h1>login</h1>
+            <input type="email" name="email" placeholder="Type your email" id="" required>
+            <input type="password" name="password" placeholder="Type your password" id="" required>
+            <input id="button" type="button" value="button" placeholder="login" required>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/855cca1017.js" crossorigin="anonymous"></script>
+</body>
+</html>
